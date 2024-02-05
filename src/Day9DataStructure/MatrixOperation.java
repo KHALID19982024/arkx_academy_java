@@ -10,6 +10,7 @@ public class MatrixOperation {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         System.out.println("print matrix:");
         MatrixPrint(matrix);
+        String []topics={"Opinion", "Tech", "Science","Health"};
 
         //Find and print the sum of all elements in the matrix.
         System.out.println("Sum of all elements: " + MatrixSum(matrix));
